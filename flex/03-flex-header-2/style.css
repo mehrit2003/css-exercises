@@ -15,6 +15,7 @@ body {
   padding: 8px;
   align-items: center;
   display: flex;
+  justify-content: space-between;
 
 }
 
@@ -51,4 +52,23 @@ ul {
   list-style-type: none;
   display: flex;
   align-items: center;
+  gap: 16px;
+  margin: 0px;
+  padding: 0px;
+  
 }
+
+.right{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.left{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+/*.profile-image{
+  flex-shrink: 0;
+}*/
