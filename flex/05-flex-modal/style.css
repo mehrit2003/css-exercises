@@ -22,6 +22,9 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   /**/
   padding: 10px;
+  display: flex;
+  gap: 16px;
+  padding: 16px;
 }
 
 .icon {
@@ -38,6 +41,7 @@ body {
   /**/
   /*margin-left: 10px;*/
   margin-right: 10px;
+  flex-shrink: 0;
   /*margin-top: 10px;*/
 }
 
@@ -70,6 +74,11 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
-.modal{
+.header-xButton{
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 10px;
 }
