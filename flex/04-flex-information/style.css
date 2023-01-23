@@ -26,6 +26,11 @@ img {
   gap: 52px;
 }
 
+.info{
+  max-width: 200px;
+  word-wrap: break-word ;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
